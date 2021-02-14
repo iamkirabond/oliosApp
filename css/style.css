@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+h1, p{
+    margin: 0;
+    padding: 0;
+}
+.left-menu{
+    width: 75px;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0;
+}
+.left-menu__logo{
+    cursor: pointer;
+    height: 21px;
+    width: 21px;
+}
+.left-menu__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 135px;
+    margin-top: 72px;
+}
+.left-menu__item{
+    display: block;
+    margin: 0 auto;
+}
+.left-menu__item img{
+    height: 16px;
+    width: 21px;
+}
+.main{
+    background: url('../assets/images/main-background.png') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 71px;
+}
+.offer__title{
+    font-family: 'Lato', sans-serif;
+    font-size: 110px;
+    font-weight: 100;
+    margin-bottom: 3px;
+}
+.offer__description{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    font-size: 17px;
+}
+.offer__more{
+    width: 108px;
+    height: 27px;
+    background-color: #0023ff;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: 0.4s ease all;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.offer__more:hover{
+    border: 1px solid #0023ff;
+    background-color: #fff;
+    color: #0023ff;
+}
+
+.burger-menu{
+    position: absolute;
+    top: 42px;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: #afadad 0px 0px 20px 0px;
+}
+.burger-menu img{
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+
+}
